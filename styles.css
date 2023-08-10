@@ -1,0 +1,40 @@
+.page_404 {
+    padding: 0;
+    margin: 0;
+    height: 100vh; /* Ajustar la sección al alto de la ventana */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arvo', serif;
+}
+
+.four_zero_four_bg {
+    background-image: url(https://cdn.dribbble.com/userupload/8726278/file/original-ab1bde6f9c74de5c8961f7fe84990cd4.gif);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.four_zero_four_bg h1 {
+    font-size: 80px;
+    text-align: center; /* Centrar el texto horizontalmente */
+    color: white; /* Asegurarse de que el texto sea visible en el fondo */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para mejorar la legibilidad */
+    margin-top: 0; /* Alinear el título con la parte superior de la sección */
+}
+
+.link_404 {
+    color: #fff!important;
+    padding: 10px 20px;
+    background: #39ac31;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.contant_box_404 {
+    margin-top: -50px;
+    text-align: center; /* Centrar el contenido en la parte superior */
+}
